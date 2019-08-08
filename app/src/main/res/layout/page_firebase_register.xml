@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@drawable/registerbg1"
+>
+
+
+    <TextView
+
+            android:layout_width="143dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+
+
+            android:layout_marginTop="100dp"
+    />
+
+
+    <EditText
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:padding="10dp"
+
+            android:ems="12"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edit_round"
+
+
+    />
+
+    <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:padding="10dp"
+            android:ems="12"
+            android:hint="Password 6 text "
+            android:inputType="textPassword"
+            android:background="@drawable/edit_round"
+    />
+
+    <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:padding="10dp"
+            android:ems="12"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edit_round"
+    />
+
+    <Button
+            android:id="@+id/b_register"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="register"
+            android:padding="5dp"
+            android:ems="12"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/ripple_effect"
+    />
+
+
+</LinearLayout>
+

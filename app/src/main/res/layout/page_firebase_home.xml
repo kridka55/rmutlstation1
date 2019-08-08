@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/home1"
+                android:layout_height="600dp">
+
+    <TextView
+            android:id="@+id/nameTxt"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textColor="@color/colorAccent6" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="183dp" android:layout_alignParentStart="true" android:layout_marginStart="110dp"
+            android:layout_marginTop="92dp" android:layout_alignParentTop="true" android:textSize="16sp"
+            android:textStyle="bold"/>
+    <TextView
+            android:id="@+id/text_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+    />
+
+    <ImageView
+            android:id="@+id/b_Page_firebase_map_1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="top|left"
+            android:padding="5dp"
+            android:ems="12"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+
+            android:background="@drawable/ripple_button"
+            android:layout_marginTop="351dp" android:layout_marginStart="46dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+
+            app:srcCompat="@drawable/ic_location"/>
+
+    <ImageView
+            android:id="@+id/b_Page_firebase_show_1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="top|right"
+
+            android:padding="5dp"
+            android:ems="12"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="350dp" android:layout_marginEnd="123dp"
+            android:layout_marginStart="60dp" android:background="@drawable/ripple_button"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@drawable/ic_clock"/>
+    <ImageView
+            android:id="@+id/b_Main2Activity"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+
+            android:layout_gravity="center_vertical|left"
+            android:padding="5dp"
+            android:ems="12"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="60dp"
+            android:layout_alignParentBottom="true" android:layout_alignParentStart="true"
+            android:layout_marginStart="46dp" android:background="@drawable/ripple_button"
+            android:src="@drawable/ic_viber"/>
+
+    <ImageView
+            android:id="@+id/b_logout"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical|right"
+            android:padding="5dp"
+            android:ems="12"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+
+            android:background="@drawable/ripple_button"
+            android:layout_alignParentBottom="true" android:layout_marginTop="2dp" android:layout_marginStart="2dp"
+            android:layout_marginEnd="124dp" android:layout_marginBottom="61dp" android:layout_alignParentEnd="true"
+            app:srcCompat="@mipmap/logout"/>
+
+</RelativeLayout>
+
+
